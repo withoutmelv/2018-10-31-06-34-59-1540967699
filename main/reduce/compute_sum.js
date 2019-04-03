@@ -2,6 +2,8 @@
 
 function calculate_elements_sum(collection) {
   //在这里写入代码
+  let output=collection.reduce((acc,cur)=>acc+cur,0);
+  return output;
 }
 
 module.exports = calculate_elements_sum;
